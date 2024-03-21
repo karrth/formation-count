@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "formation-count"
+version = "0.1.0"
+description = ""
+authors = ["arpeggi <arpeggi@karrth.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+opencv-python = "^4.9.0.80"
+typer = "^0.9.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
