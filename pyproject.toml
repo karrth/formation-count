@@ -9,6 +9,8 @@ python = "^3.11"
 opencv-python = "^4.9.0.80"
 typer = "^0.9.0"
 
+[tool.poetry.scripts]
+formation-count = 'formation_count.main:app'
 
 [build-system]
 requires = ["poetry-core"]

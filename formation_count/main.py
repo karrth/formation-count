@@ -125,6 +125,9 @@ class Counter:
         return result
             
 
+app = typer.Typer()
+
+@app.command()
 def play(
     filepath: str,
     window: Annotated[int, typer.Option(help="Window in seconds")] = 35,
@@ -189,6 +192,3 @@ def play(
         return
     result.extract(filepath, buffer)
 
-
-if __name__ == '__main__':
-    typer.run(play)
