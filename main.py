@@ -97,7 +97,8 @@ class Counter:
         self.points.append(point)
 
     def delete(self):
-        self.points.pop()
+        point = self.points.pop()
+        print(f"Deleting {point}")
 
     def calculate(self):
         results = []
