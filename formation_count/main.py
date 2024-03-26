@@ -101,6 +101,7 @@ class Counter:
         print(f"Deleting {point}")
 
     def calculate(self):
+        print("Calculating highest point sequence")
         results = []
         for index, point in enumerate(self.points):
             if point.seq == "start":
@@ -183,7 +184,7 @@ def play(
     except Exception:
         pass
 
-    print(f"Total Video Points: {len(counter.points)}")
+    print(f"Total Video Points: {len(counter.points)}\n")
     result = counter.calculate()
     if result is None:
         return

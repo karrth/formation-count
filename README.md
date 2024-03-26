@@ -20,4 +20,4 @@ Use keybindings to mark points:
 | `d` | Delete the last point |
 | `q` | Quit marking points |
 
-Once the video runs out, or a `q` is received, the program will calculate the highest number of point sin the provided timeframe (default is 35 seconds) and extract a new video with the found timeframe
+Once the video runs out, or a `q` is received, the program will calculate the highest number of points in the provided timeframe (default is 35 seconds) and extract a new video with the found timeframe
