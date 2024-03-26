@@ -15,8 +15,8 @@ Use keybindings to mark points:
 
 | Key | Action |
 |-----|--------|
-| `s` | Start of a sequence |
-| `p` | Mark a point |
+| `s` | Start of a sequence (and a point) |
+| `p` | Mark a sequence point |
 | `d` | Delete the last point |
 | `q` | Quit marking points |
 
